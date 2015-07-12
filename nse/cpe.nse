@@ -15,7 +15,7 @@ CPE
 
 author = "Adam Ziaja <adam@adamziaja.com>"
 license = "Same as Nmap--See http://nmap.org/book/man-legal.html"
-categories = {"safe", "discovery"}
+categories = {"safe", "version"}
 
 portrule = function(host, port)
   if port.version.cpe[1] ~= nil then
