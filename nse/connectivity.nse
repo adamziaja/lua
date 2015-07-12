@@ -7,7 +7,7 @@ Script checks connectivity (whether last hop is target).
 
 ---
 -- @usage
--- nmap --script=connectivity --traceroute target
+-- sudo nmap -Pn --script=connectivity --traceroute target
 -- 
 -- @output
 -- Host script results:
